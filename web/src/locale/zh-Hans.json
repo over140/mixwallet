@@ -30,6 +30,8 @@
     "address": "地址",
     "account.name": "账户",
     "account.tag": "Memo",
+    "address.btc": "该地址仅支持 BTC 或 Omni USDT 充值，",
+    "address.erc20": "该地址支持所有 ERC-20 代币充值，",
     "both": "注意：账号名和备注同时使用才能充值 %{symbol} 到账，",
     "confirmations": "充值需要至少 %{confirmations} 个确认才能到账，充错无法找回！"
   },
@@ -46,7 +48,7 @@
     "amount": "提现的 %{symbol} 金额"
   },
   "wallet": {
-    "title": "我的钱包（演示版）",
+    "title": "我的 Mixin 钱包（演示版）",
     "errors": {
       "pin": "PIN 不正确"
     },
