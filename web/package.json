@@ -12,20 +12,17 @@
   "license": "ISC",
   "dependencies": {
     "bignumber.js": "^7.2.1",
+    "bot-api-js-client": "^1.0.4",
     "clipboard": "^2.0.1",
     "handlebars": "^4.0.11",
-    "int64-buffer": "^0.99.1007",
     "jquery": "^3.3.1",
     "jsrsasign": "^8.0.12",
-    "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
     "navigo": "^7.1.2",
-    "node-forge": "^0.7.5",
     "node-polyglot": "^2.3.0",
     "noty": "^3.2.0-beta",
     "qrious": "^4.0.2",
-    "simple-line-icons": "^2.4.1",
-    "uuid": "^3.3.2"
+    "simple-line-icons": "^2.4.1"
   },
   "devDependencies": {
     "css-loader": "^0.28.11",

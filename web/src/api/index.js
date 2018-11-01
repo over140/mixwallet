@@ -1,63 +1,40 @@
 import $ from 'jquery';
 import Noty from 'noty';
-import forge from 'node-forge';
-import moment from 'moment';
-import KJUR from 'jsrsasign';
-import uuid from 'uuid/v4';
 import Mixin from './mixin.js';
 import Account from './account.js';
 import Asset from './asset.js';
+import MixinUtils from 'bot-api-js-client';
 
 function API(router) {
   this.router = router;
   this.mixin = new Mixin(this);
   this.account = new Account(this);
   this.asset = new Asset(this);
+  this.mixinUtils = new MixinUtils();
   this.Error404 = require('../404.html');
   this.ErrorGeneral = require('../error.html');
 }
 
 API.prototype = {
 
-  getAuthenticationToken: function (uid, sid, privateKey, method, uri, body) {
-    if (typeof body !== 'string') { body = ""; }
-
-    let expire = moment.utc().add(1, 'minutes').unix();
-    let md = forge.md.sha256.create();
-    md.update(method + uri + body);
-
-    var oHeader = {alg: 'RS512', typ: 'JWT'};
-    var oPayload = {
-      uid: uid,
-      sid: sid,
-      exp: expire,
-      jti: uuid(),
-      sig: md.digest().toHex()
-    };
-    var sHeader = JSON.stringify(oHeader);
-    var sPayload = JSON.stringify(oPayload);
-    return KJUR.jws.JWS.sign('RS512', sHeader, sPayload, privateKey);
-  },
-
   request: function (method, path, params, callback) {
-    var body = JSON.stringify(params);
     var url = 'https://api.mixin.one' + path;
     var token = '';
     if ('/users' === path) {
-      token = this.getAuthenticationToken(APP_CLIENT_ID, APP_SESSION_ID, APP_PRIVATE_KEY, method, path, body);
+      token = this.mixinUtils.signAuthenticationToken(APP_CLIENT_ID, APP_SESSION_ID, APP_PRIVATE_KEY, method, path, params);
     } else {
-      token = this.getAuthenticationToken(this.account.userId(), this.account.sessionId(), this.account.privateKey(), method, path, body);
+      token = this.mixinUtils.signAuthenticationToken(this.account.userId(), this.account.sessionId(), this.account.privateKey(), method, path, params);
     }
-    return this.send(token, method, url, body, callback);
+    return this.send(token, method, url, params, callback);
   },
 
-  send: function (token, method, url, body, callback) {
+  send: function (token, method, url, params, callback) {
     const self = this;
     $.ajax({
       type: method,
       url: url,
       contentType: "application/json",
-      data: body,
+      data: JSON.stringify(params),
       beforeSend: function(xhr) {
         xhr.setRequestHeader("Authorization", "Bearer " + token);
       },
