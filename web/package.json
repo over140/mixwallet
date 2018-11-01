@@ -1,0 +1,45 @@
+{
+  "name": "mixinwallet",
+  "version": "1.0.0",
+  "description": "Mixin Wallet cache layer Web interface.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -w --mode=development",
+    "dist": "NODE_ENV=production webpack -p --mode=production"
+  },
+  "author": "over140",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "clipboard": "^2.0.1",
+    "handlebars": "^4.0.11",
+    "int64-buffer": "^0.99.1007",
+    "jquery": "^3.3.1",
+    "jsrsasign": "^8.0.12",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "navigo": "^7.1.2",
+    "node-forge": "^0.7.5",
+    "node-polyglot": "^2.3.0",
+    "noty": "^3.2.0-beta",
+    "qrious": "^4.0.2",
+    "simple-line-icons": "^2.4.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "favicons-webpack-plugin": "0.0.9",
+    "file-loader": "^1.1.11",
+    "handlebars-loader": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.4",
+    "offline-plugin": "^5.0.5",
+    "sass-loader": "^7.1.0",
+    "script-ext-html-webpack-plugin": "^2.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}

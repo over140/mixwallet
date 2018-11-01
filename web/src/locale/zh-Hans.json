@@ -1,0 +1,71 @@
+{
+  "appName": "Mixin 钱包",
+  "action": {
+    "ok": "好的",
+    "submit": "提交"
+  },
+  "general": {
+    "errors": {
+      "0": "网络错误。",
+      "400": "数据无效。",
+      "404": "未找到。",
+      "401": "未经授权的访问。",
+      "403": "拒绝访问。",
+      "500": "内部服务器错误。",
+      "10001": "内部服务器错误。",
+      "10002": "数据无效。",
+      "20117": "余额不足",
+      "20118": "支付 PIN 码不正确",
+      "20119": "支付 PIN 码不正确",
+      "20120": "转账金额太小",
+      "20124": "手续费不足",
+      "20127": "提现金额太少了",
+      "30100": "区块链同步异常",
+      "30102": "地址格式错误",
+      "asset_access_denied": "Mixcoin 需要访问你的资产显示交易对，请重新授权。"
+    }
+  },
+  "deposit": {
+    "title": "充值",
+    "address": "地址",
+    "account.name": "账户",
+    "account.tag": "Memo",
+    "both": "注意：账号名和备注同时使用才能充值 %{symbol} 到账，",
+    "confirmations": "充值需要至少 %{confirmations} 个确认才能到账，充错无法找回！"
+  },
+  "withdrawal": {
+    "continue": "继续",
+    "title": "提现",
+    "public.key": "提现地址",
+    "account.name": "账户名",
+    "account.tag": "Memo",
+    "memo": "Memo",
+    "fee": "手续费",
+    "pin": "6 位数字 PIN 码",
+    "success": "提现成功",
+    "amount": "提现的 %{symbol} 金额"
+  },
+  "wallet": {
+    "title": "我的钱包（演示版）",
+    "errors": {
+      "pin": "PIN 不正确"
+    },
+    "create": {
+      "title": "创建 Mixin 钱包",
+      "placeholder": "请牢记 6 位数字 PIN 码",
+      "label": "输入 6 位数字 PIN 码",  
+      "button": "创建钱包"
+    },
+    "import": {
+      "title": "导入钱包",
+      "key": "输入钱包私钥",
+      "pin": "输入 6 位数字 PIN 码"
+    },
+    "export": {
+      "title": "导出私钥",
+      "copy": "复制",
+      "success": "复制成功"
+    },
+    "tips": "Mixin Wallet 是一个基于 Mixin Network 的全币种钱包，通过私钥 + 6 位数字 PIN 码安全管理你的数字资产。注意我们不会保存你的私钥和数字 PIN 码，私钥和 PIN 码丢失无法找回，请妥善保管私钥并记住 6 位数字 PIN 码。"
+  }
+}

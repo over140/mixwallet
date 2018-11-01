@@ -1,0 +1,19 @@
+{
+  "appName": "Mixin Wallet",
+  "action": {
+    "ok": "OK",
+    "submit": "Submit"
+  },
+  "general": {
+    "errors": {
+      "0": "Network error.",
+      "400": "Invalid data.",
+      "404": "Not found.",
+      "401": "Unauthorized, maybe invalid email or password.",
+      "403": "Access denied.",
+      "500": "Internal server error.",
+      "10001": "Internal server error.",
+      "10002": "Invalid data."
+    }
+  }
+}

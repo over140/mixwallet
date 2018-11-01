@@ -1,0 +1,15 @@
+<div class="header">
+  <h1 class="title">{{t 'wallet.create.title'}}</h1>
+</div>
+
+<div class="container">
+    <h3>{{t 'wallet.create.label'}}</h3>
+    <input name="pin" type="password" maxlength="6" placeholder="{{t 'wallet.create.placeholder'}}" onkeyup="this.value=this.value.replace(/[^\d]/,'')">
+    <a class="btn action create" id="create">{{t 'wallet.create.button'}}</a>
+    <br/>
+    <a class="btn action import" id="import">{{t 'wallet.import.title'}}</a>
+</div>
+
+<div class="footer">
+  <p>{{t 'wallet.tips'}}<a href='https://github.com/over140/mixwallet'>https://github.com/over140/mixwallet</a></p>
+</div>

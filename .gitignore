@@ -1,0 +1,5 @@
+node_modules
+dist
+web/nginx.conf
+web/deploy.sh
+*.go

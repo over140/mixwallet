@@ -1,0 +1,24 @@
+<div class="container">
+  <header class="header">
+    <h1 class="title">{{t 'wallet.title'}}</h1>
+    <a class="nav export" href="/account/export"><i class="icon-key"></i></a>
+  </header>
+  <section class="content">
+    <table class="accounts list">
+      <tbody>
+        {{#each assets}}
+        <tr class="account item" data-id="{{this.asset_id}}">
+          <td><img src="{{this.icon_url}}" alt="{{this.name}}" /><img src="{{this.chain_icon_url}}" class="chain icon"/></td>
+          <td>{{this.balance}} {{this.symbol}}</td>
+          <td>
+            {{#if depositEnabled}}
+            <a class="action" href="/account/{{this.asset_id}}/deposit" data-navigo>{{t 'deposit.title'}}</a>
+            <a class="action" href="/account/{{this.asset_id}}/withdrawal" data-navigo>{{t 'withdrawal.title'}}</a>
+            {{/if}}
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </section>
+</div>
