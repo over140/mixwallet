@@ -13,7 +13,60 @@
       "403": "Access denied.",
       "500": "Internal server error.",
       "10001": "Internal server error.",
-      "10002": "Invalid data."
+      "10002": "Invalid data.",
+      "20117": "Insufficient balance",
+      "20118": "PIN incorrect",
+      "20119": "PIN incorrect",
+      "20120": "Transfer amount too small",
+      "20124": "Insufficient transaction fee",
+      "20127": "Withdraw amount too small",
+      "30100": "Blockchain not in sync.",
+      "30102": "Invalid address format."
     }
+  },
+  "deposit": {
+    "title": "Deposit",
+    "address": "Address",
+    "account.name": "Account Name",
+    "account.tag": "Account Memo",
+    "address.btc": "This address only supports BTC or Omni USDT deposit, ",
+    "address.erc20": "This address supports all ERC-20 token deposit, ",
+    "both": "Notice: Both an Account Memo and an Account Name are required to successfully deposit your %{symbol} to Mixin Wallet, ",
+    "confirmations": "deposit will arrive after at least %{confirmations} block confirmations."
+  },
+  "withdrawal": {
+    "continue": "Continue",
+    "title": "Withdrawal",
+    "public.key": "Address",
+    "account.name": "Account Name",
+    "account.tag": "Account Memo",
+    "memo": "Memo",
+    "fee": "Fee",
+    "pin": "The 6 digit PIN",
+    "success": "Successfully withdrawal",
+    "amount": "Withdrawal %{symbol} amount"
+  },
+  "wallet": {
+    "title": "My Mixin Wallet (Beta)",
+    "errors": {
+      "pin": "PIN incorrect"
+    },
+    "create": {
+      "title": "Create Mixin Wallet",
+      "placeholder": "Please remember the 6 digit PIN",
+      "label": "Please enter the 6 digit PIN",  
+      "button": "Create Wallet"
+    },
+    "import": {
+      "title": "Import Wallet",
+      "key": "Input the private key of the wallet",
+      "pin": "Please enter the 6 digit PIN"
+    },
+    "export": {
+      "title": "Export Private Key",
+      "copy": "Copy",
+      "success": "Copied"
+    },
+    "tips": "Mixin Wallet is a Mixin Network-based full set cryptocurrency wallet that securely manages your digital assets with a private key and a 6-digit PIN code. Please note that we will not save your private key and digital PIN code, once the private key and PIN code lost, both of them cannot be recovered, please keep the private key and remember the 6-digit PIN code carefully."
   }
 }

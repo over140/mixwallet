@@ -15,7 +15,7 @@ const api = new API(router);
 const account = new Account(router, api);
 const OfflinePlugin = require('offline-plugin/runtime');
 
-window.i18n = new Locale('zh');
+window.i18n = new Locale(navigator.language);
 
 router.replace = function(url) {
   this.resolve(url);
