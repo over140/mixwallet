@@ -4,6 +4,10 @@ import Mixin from './mixin.js';
 import Account from './account.js';
 import Asset from './asset.js';
 import MixinUtils from 'bot-api-js-client';
+import forge from 'node-forge';
+import moment from 'moment';
+import KJUR from 'jsrsasign';
+import uuid from 'uuid/v4';
 
 function API(router) {
   this.router = router;
@@ -17,13 +21,39 @@ function API(router) {
 
 API.prototype = {
 
+  signAuthenticationToken: function (uid, sid, privateKey, method, uri, params) {
+    var body;
+    if (typeof(params) === "object") {
+      body = JSON.stringify(params);
+    } else if (params == undefined || params === null) {
+      body = ""
+    } else {
+      body = params;
+    }
+    
+    let expire = moment.utc().add(1, 'minutes').unix();
+    let md = forge.md.sha256.create();
+    md.update(method + uri + body);
+    var oHeader = {alg: 'RS512', typ: 'JWT'};
+    var oPayload = {
+      uid: uid,
+      sid: sid,
+      exp: expire,
+      jti: uuid(),
+      sig: md.digest().toHex()
+    };
+    var sHeader = JSON.stringify(oHeader);
+    var sPayload = JSON.stringify(oPayload);
+    return KJUR.jws.JWS.sign('RS512', sHeader, sPayload, privateKey);
+  },
+
   request: function (method, path, params, callback) {
     var url = 'https://api.mixin.one' + path;
     var token = '';
     if ('/users' === path) {
-      token = this.mixinUtils.signAuthenticationToken(APP_CLIENT_ID, APP_SESSION_ID, APP_PRIVATE_KEY, method, path, params);
+      token = this.signAuthenticationToken(APP_CLIENT_ID, APP_SESSION_ID, APP_PRIVATE_KEY, method, path, params);
     } else {
-      token = this.mixinUtils.signAuthenticationToken(this.account.userId(), this.account.sessionId(), this.account.privateKey(), method, path, params);
+      token = this.signAuthenticationToken(this.account.userId(), this.account.sessionId(), this.account.privateKey(), method, path, params);
     }
     return this.send(token, method, url, params, callback);
   },
