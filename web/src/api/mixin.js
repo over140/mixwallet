@@ -33,11 +33,11 @@ Mixin.prototype = {
     const sessionId = data.sid;
     const privatekey = data.key;
     const pintoken = data.pintoken;
-    var body = JSON.stringify({ 
+    var params = { 
       pin: self.encryptedPin(data.pin, pintoken, sessionId, privatekey)
-    });
-    const token = this.api.getAuthenticationToken(userId, sessionId, privatekey, method, path, body);
-    return this.api.send(token, method, url, body, callback);
+    };
+    const token = this.api.signAuthenticationToken(userId, sessionId, privatekey, method, path, params);
+    return this.api.send(token, method, url, params, callback);
   },
 
   info: function (callback) {
