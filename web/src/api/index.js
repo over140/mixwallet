@@ -3,7 +3,6 @@ import Noty from 'noty';
 import Mixin from './mixin.js';
 import Account from './account.js';
 import Asset from './asset.js';
-import MixinUtils from 'bot-api-js-client';
 import forge from 'node-forge';
 import moment from 'moment';
 import KJUR from 'jsrsasign';
@@ -14,7 +13,6 @@ function API(router) {
   this.mixin = new Mixin(this);
   this.account = new Account(this);
   this.asset = new Asset(this);
-  this.mixinUtils = new MixinUtils();
   this.Error404 = require('../404.html');
   this.ErrorGeneral = require('../error.html');
 }
