@@ -12,7 +12,7 @@ After you logged in, click Create New App to create your first app.
 
 
 ##### Nginx
-Install nginx and config nginx.conf, `sudo nginx` later.
+Install nginx and config nginx.conf, `sudo nginx` to start nginx.
 
 ##### Config
 Replace app id、private key and session id from your app infomation in webpack.config.js
