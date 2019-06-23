@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Mixcoin",
+    "tags": "exchange",
+    "identity_number": "7000101524",
+    "icon_url": "https://images.mixin.one/c9gus9bjvikMKlszvmcVcMdAid1qOqhQoKKuohLsQJ6NEaA_C_XihIKorVOBbgOAdzxZq3Et821lc72gd6oyaDU=s256",
+    "description": "An open source decentralized exchange to trade all digital assets with your wallet.",
+    "url": "https://mixin.one/users/82d20bc7-9a97-4a69-bcd0-4da502374f6c",
+    "effects": " github"
+  },
+  {
+    "name": "Diceos",
+    "tags": "lottery",
+    "identity_number": "7000101571",
+    "icon_url": "https://images.mixin.one/vlvDXCHSBts32tU3lyt6h6MKIst23BsPz7BZojtwrfLBOJYhCdTYgJVRIg01jJSmULtmYTnngcBCQQbzk7G9=s256",
+    "description": "A Game. COOL. SIMPLE. AWESOME.",
+    "url": "https://mixin.one/users/8f492936-2c0f-4667-92c1-e43babafda75",
+    "effects": ""
+  },
+  {
+    "name": "Slotin",
+    "tags": "lottery",
+    "identity_number": "7000101605",
+    "icon_url": "https://images.mixin.one/pt3xQ6tXIVix7Bs_tVvwY24E34_MbkbDLwJJD1lH8YKjBDNbMU25CAG9pfSxFw5JpqyiGATsEwDQsAOOwNVSAmht=s256",
+    "description": "A simple awesome slot machine.",
+    "url": "https://mixin.one/users/78a80973-79bd-473e-a39a-c902c2825a87",
+    "effects": ""
+  },
+  {
+    "name": "Gold Miner",
+    "tags": "game",
+    "identity_number": "7000101751",
+    "icon_url": "https://images.mixin.one/ZEoEsY6HPtsB61qIoYyPf_q6E_-w0BsgnEAqyDVGGHMRLP-uK73Qe8xpscHtOhu1jfgEEbBNXK-A2VZ-CI78ZQ8=s256",
+    "description": "This is classic gold miner game",
+    "url": "https://mixin.one/users/0d93ab7c-d97a-4838-9c8d-34627472353e",
+    "effects": ""
+  }
+]

@@ -1,0 +1,33 @@
+
+<div class="container">
+  <div class="tabs">
+    {{#each data}}
+      {{#if @first}}
+      <a class="{{@key}} tab active">{{title}}</a>
+      {{else}}
+      <a class="{{@key}} tab">{{title}}</a>
+      {{/if}}
+    {{/each}}
+  </div>
+  <section class="content">
+      {{#each data}}
+      <table class="{{@key}} bots list {{#if @first}}show{{/if}}">
+        <tbody>
+          {{#each bots}}
+          <tr class="account item" data-id="{{this.identity_number}}">
+            <td>
+              <img src="{{this.icon_url}}" alt="{{this.name}}" />
+            </td>
+            <td>
+              <span>{{this.name}}</span><br />
+              <span class="description">{{this.description}}</span>
+            </td>
+            <td>
+              <a href="{{this.url}}" class="action">{{t 'store.button.view'}}</a>
+            </td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      {{/each}}
+</div>

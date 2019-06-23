@@ -7,6 +7,7 @@ import API from './api';
 import Wallet from './wallet';
 import Asset from './asset';
 import Account from './account';
+import Store from './store';
 
 const PartialLoading = require('./loading.html');
 const Error404 = require('./404.html');
@@ -74,6 +75,10 @@ router.on({
     } else {
       new Wallet(router, api).newWallet();
     }
+  },
+  '/bots': function () {
+    document.title = window.i18n.t('store.title');
+    new Store(router).render();
   }
 }).notFound(function () {
   $('#layout-container').html(Error404());

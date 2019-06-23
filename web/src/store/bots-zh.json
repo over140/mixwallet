@@ -1,0 +1,284 @@
+[
+  {
+    "title": "交易",
+    "bots": [
+      {
+        "name": "ExinOne",
+        "tags": "法币 币币 定投",
+        "identity_number": "7000101276",
+        "icon_url": "https://images.mixin.one/y10b63pl9TQy5Tr8-hguLVDZWl-Xt1ug3f-LgPSl6s6ZxKsYzdy9sWZFTarULKxWdnJQyDs_tr1q73ctdI6MKA=s256",
+        "description": "基于 Mixin Network，支持法币入金，币币交易对接币安、火币和 BigONE 深度，定投免手续费且不托管资产，支持余币宝。",
+        "url": "https://mixin.one/users/61103d28-3ac2-44a2-ae34-bd956070dab1",
+        "effects": ""
+      },
+      {
+        "name": "Mixcoin",
+        "tags": "交易所",
+        "identity_number": "7000101524",
+        "icon_url": "https://images.mixin.one/c9gus9bjvikMKlszvmcVcMdAid1qOqhQoKKuohLsQJ6NEaA_C_XihIKorVOBbgOAdzxZq3Et821lc72gd6oyaDU=s256",
+        "description": "基于 OceanONE 的开源前端交易小程序，根据钱包自动显示交易对，直接下单给 Ocean 撮合引擎。",
+        "url": "https://mixin.one/users/82d20bc7-9a97-4a69-bcd0-4da502374f6c",
+        "effects": " github"
+      },
+      {
+        "name": "Coin Exchange",
+        "tags": "交易所",
+        "identity_number": "7000100132",
+        "icon_url": "https://images.mixin.one/5FCFO5LtieuJoZU7l9sFNe6YSKRONBMEFFOUyQ3BQLNskk8jAjxirqEQQbWOHZipLB4ftYBLSjzYJy4d2Wd-jqo=s256",
+        "description": "简单的资产交换工具，免手续费",
+        "url": "https://mixin.one/users/31c7e0ce-88ae-45b4-8915-053d8adc556c",
+        "effects": " github"
+      }
+    ]
+  },
+  {
+    "title": "社群",
+    "bots": [
+      {
+        "name": "Mixin 中文群【收费群】",
+        "tags": "大群",
+        "identity_number": "7000101317",
+        "icon_url": "https://images.mixin.one/yldGRWFcoAk7u-vsTPvlqdNx7MHOWJhQ1bG47ZJvVdEN89oyKa1l6owLgy_HQQWH6IcF8cLbiSzroqOkY_KeAw=s256",
+        "description": "Mixin 团队开发和管理的中文群，大佬云集，入群费 0.02 XIN，每新增 100 群成员入群费上调 0.01 XIN，群成员 1800+",
+        "url": "https://mixin.one/users/67a87828-18f5-46a1-b6cc-c72a97a77c43",
+        "effects": ""
+      },
+      {
+        "name": "PRESS.one 中文群【收费群】",
+        "tags": "大群",
+        "identity_number": "7000101697",
+        "icon_url": "https://images.mixin.one/CLzulPUkQs_10TfbNbCXSWOV9NPG_etOxs1GtAoROeI341CQmadUtxoT9YXh1pr_Oec9LcfI3f7w332c66BMU_w=s256",
+        "description": "PRESS.one 在 Mixin 的官方中文群，由霍炬维护，入群费 10 PRS，群成员 500+",
+        "url": "https://mixin.one/users/5ecbaa59-305e-463b-bb1c-41bf98c25b44",
+        "effects": ""
+      },
+      {
+        "name": "Exin 中文群",
+        "tags": "大群",
+        "identity_number": "7000000016",
+        "icon_url": "https://images.mixin.one/fCziMu5rXoVMDAA-aafJOHW27hlzuT73ZjXkEfHTz2hAGC4iaOtmg2Yy-tljaOjhitg_1YnhwWA6spJQOReT4eQ=s256",
+        "description": "Exin 用户中文群，除了提供群聊服务，还提供 Mixin 网页钱包、OTC、定投、余币宝、一键跨交易所买币等功能入口，群成员 900+",
+        "url": "https://mixin.one/users/47cdbc9e-e2b9-4d1f-b13e-42fec1d8853d",
+        "effects": ""
+      },
+      {
+        "name": "Fox.ONE 中文群",
+        "tags": "大群",
+        "identity_number": "7000100217",
+        "icon_url": "https://images.mixin.one/LxAVYpOjyi1GiLKOS4VWncoydHoEHYK3A6kNHprJw_JGuAz_ifjE3kjB0nojDVzBn8wxbvn__XFeUdwNUFMak2g=s256",
+        "description": "Exin 中文用户群，额外提供了 Mixin 网页钱包、 GBI 、评级、娱乐等功能入口，群成员 800+",
+        "url": "https://mixin.one/users/56e28252-1aef-48a6-a0c7-2213652570d7",
+        "effects": ""
+      },
+      {
+        "name": "BigONE 中文群",
+        "tags": "大群",
+        "identity_number": "7000101910",
+        "icon_url": "https://images.mixin.one/KSb3_xbVKTlapIWoNTtIKVotFV4DpZXdeYI03Hjmr6p_t8UWSBxf-t2ScugoVRIppcazHSggbZS2plwAcOykMeY=s256",
+        "description": "BigONE 官方中文用户群，群成员 700+",
+        "url": "https://mixin.one/users/72f9434b-9ccb-4882-b8bd-16f916ae5f30",
+        "effects": ""
+      },
+      {
+        "name": "MassGrid 中文群",
+        "tags": "大群",
+        "identity_number": "7000101950",
+        "icon_url": "https://images.mixin.one/eszzF8dll4mJunQs3z1YDFoQxoGDkJeSuhyr3vRNmRH1FcdSImjJdtdMP0V_a2eAcbRP9FBeIE8wuSWy5zm7u2hm=s256",
+        "description": "MassGrid 中文用户群，致力于成为全球最大的分布式高性能云计算网络，群成员 800+",
+        "url": "https://mixin.one/users/eb869f41-abff-4799-9f30-c787748e0ead",
+        "effects": ""
+      }
+    ]
+  },
+  {
+    "title": "订阅",
+    "bots": [
+      {
+        "name": "Mixin 产品动态",
+        "tags": "资讯",
+        "identity_number": "7000101914",
+        "icon_url": "https://images.mixin.one/HrwBshWISquH7qWNq3b-WBokEpdEdOfIcogb0_rJHPnXh1VrbpMLFpjX7xRP56xP-vNnA4HJzfen_eSfwPT_U14=s256",
+        "description": "由 Mixin 团队维护，发布最新、最快的 Mixin 相关产品动态、文章",
+        "url": "https://mixin.one/users/e49eeb58-64cd-4065-b4f8-bac86647448d",
+        "effects": ""
+      },
+      {
+        "name": "Mixin 链接未来世界",
+        "tags": "资讯",
+        "identity_number": "7000100225",
+        "icon_url": "https://images.mixin.one/SGzqJAc2SZHe6-ciHXKNAu_oGdDNBWNaQ7lYxrMYeLvO8u6aIzy8xvFM4JQdHkJB8GSLt2OheQxUIbeb5ojX3g=s256",
+        "description": "柱子与您分享 Mixin 的八卦杂谈，穿插着有趣、好玩、有料的机器人介绍",
+        "url": "https://mixin.one/users/6d16d8ef-3557-423c-b915-052955cfd0bc",
+        "effects": ""
+      },
+      {
+        "name": "币世界 Bot",
+        "tags": "资讯",
+        "identity_number": "7000100102",
+        "icon_url": "https://images.mixin.one/2ehkzRwsLNFn8s0102U703aehwcPm9_iUmnpkfqzZPICd5Yo3iFpopCheXNOXl13TKsef8v7XV72jGfww663kX8=s256",
+        "description": "币世界非官方 Bot，实时推送",
+        "url": "https://mixin.one/users/1fc37f38-28e2-442c-9187-79eaee9aaa3b",
+        "effects": ""
+      },
+      {
+        "name": "IMEOS 快讯",
+        "tags": "资讯",
+        "identity_number": "7000101290",
+        "icon_url": "https://images.mixin.one/6itqfVRsT_EX9CG0oLY_1lw_zh6muk2ujyIi_7l8XCjkIxdvEPqeyUMKVPAY85M2CThjK-RVx28YkPk3o5DfCg=s256",
+        "description": "EOS 快讯、收集全球 Dapp 信息、行情工具和 EOS 生态市场数据",
+        "url": "https://mixin.one/users/7ad1c20d-3143-4c5c-aab8-f9a544db0008",
+        "effects": ""
+      },
+      {
+        "name": "妹子图",
+        "tags": "娱乐",
+        "identity_number": "7000100214",
+        "icon_url": "https://images.mixin.one/m-Myhb3sEVh4BSa-QSVfOqlwqf2C7fs_RO77-aUA3aiy8lxd5eVFGAJCrh9gIZ4YixSff91xU-6ZIjAMlYZ418Ap=s256",
+        "description": "看妹子的角落",
+        "url": "https://mixin.one/users/983cb9e0-4812-4870-a358-aa9f5bb969a9",
+        "effects": ""
+      }
+    ]
+  },
+  {
+    "title": "工具",
+    "bots": [
+      {
+        "name": "小钱包 —— 畅聊版网页钱包",
+        "tags": "工具",
+        "identity_number": "7000101425",
+        "icon_url": "https://images.mixin.one/k28do_b8QQ7vhtqauFwKek3_n5O-UvsHDiFC6PTaNdsIC52WGjlFhT0wV62XJRgft27LyJzlURmzCMv6s8IkiWAl=s256",
+        "description": "由 Fox.ONE 提供，服务于 iOS 畅聊版用户，通过 API 安全管理用户资产，添加提现地址和提现操作都必须通过用户进一步授权。",
+        "url": "https://mixin.one/users/f49c073a-f92c-4268-ab81-25805d8a108f",
+        "effects": ""
+      },
+      {
+        "name": "持仓助手",
+        "tags": "工具",
+        "identity_number": "7000100087",
+        "icon_url": "https://images.mixin.one/SFQ_EA5qpSndAWPekcaDzzGwCJiu7UC_0R6obB7T5VTAmO0FduoUHRTuzBlWAEnbZTbBNCZHs0w2KMtqSxpQ1A=s256",
+        "description": "将该机器人添加为群组成员并且设置为管理员，持仓助理就会定期检查并移除不满足持仓要求的成员",
+        "url": "https://mixin.one/users/fb458e06-0176-4fde-aaff-6e0e8b9c2c67",
+        "effects": ""
+      },
+      {
+        "name": "价值红包",
+        "tags": "工具",
+        "identity_number": "7000100089",
+        "icon_url": "https://images.mixin.one/O5okDmLlVqcOSk8LEHVSfEhs5T6hAFRjtpulCAGuLJd8GyYClOMHHqVawQTleBpn1IsAf1Ag4JOQYoo8_NWllI0O=s256",
+        "description": "将该机器人添加为群组成员，然后返回会话从 + 展开菜单里点价值红包既可以发有价格的红包",
+        "url": "https://mixin.one/users/af61f3ca-17fe-478f-b738-4a1773db49c2",
+        "effects": ""
+      },
+      {
+        "name": "红包来了",
+        "tags": "工具",
+        "identity_number": "7000100016",
+        "icon_url": "https://images.mixin.one/X44V48LK9oEBT3izRGKqdVSPfiH5DtYTzzF0ch5nP-f7tO4v0BTTqVhFEHqd52qUeuVas-BSkLH1ckxEI51-jXmF=s256",
+        "description": "将该机器人添加为群组成员，然后返回会话从 + 展开菜单里点红包来了既可以发你钱包里所有资产作为红包",
+        "url": "https://mixin.one/users/1d15c3d0-cb17-472d-bc62-b10b15553732",
+        "effects": ""
+      },
+      {
+        "name": "Mixin 监控",
+        "tags": "工具",
+        "identity_number": "7000101498",
+        "icon_url": "https://images.mixin.one/XMVXQ5zDTzLLqcAirQR-hJv5ATjfmbbXYSOdyQSh_PjaM6Ko49hnKeJVYVzJNd8I44kNctKRFSD40DvyqK0plQ=s256",
+        "description": "监控节点、公链、提现、新增用户等服务状态",
+        "url": "https://mixin.one/users/22687f1e-4593-495d-a93b-ad1e3d640aeb",
+        "effects": ""
+      },
+      {
+        "name": "Mixin 收款",
+        "tags": "工具",
+        "identity_number": "7000101485",
+        "icon_url": "https://images.mixin.one/DWtpbN9L3vM3ZL8Opp5bo7KmNTR7eEZLNGkmXslNc6q-6CgxlWvaj_Zwfo5ZCsCji7Rcal5PV7aWDjLLfropeeM=s256",
+        "description": "一次性定额收款功能，当你需要向某人收取定额币种时很有用，选好币种、填好数量和备注直接生成一个支付链接或者二维码发给对方即可。",
+        "url": "https://mixin.one/users/b080e9b1-e93e-49e6-9c52-a7b7eb91f604",
+        "effects": ""
+      },
+      {
+        "name": "自助发币工具",
+        "tags": "工具",
+        "identity_number": "7000101740",
+        "icon_url": "https://images.mixin.one/68rfMStxTR8qPAjfEqQyZ79bjXxAKQi0uIDhJZLx_bqt3KZax2_X_YiqItWuv53HZ6388kZEin6m2MZqTEDOaZ0=s256",
+        "description": "付费自助发币工具，目前支持ERC20。",
+        "url": "https://mixin.one/users/be542c27-a0cc-4422-ae55-c734bfcc2797",
+        "effects": ""
+      },
+      {
+        "name": "Shitcoin 垃圾桶",
+        "tags": "工具",
+        "identity_number": "7000101799",
+        "icon_url": "https://images.mixin.one/qlDZRdQFQjbQB6fzr16yPn4-lZUgK4zmSrtWcX67ITXXMr1EFgFE1lFbTB9ELpVWJC-2ExV1wGpLffhE4d7J8zy8=s256",
+        "description": "开源的 Shitcoin 垃圾桶帮你清理没有价格的代币",
+        "url": "https://mixin.one/users/cd05e2b8-8d51-45b2-9814-c7beecd9c059",
+        "effects": ""
+      }
+    ]
+  },
+  {
+    "title": "娱乐",
+    "bots": [
+      {
+        "name": "Diceos",
+        "tags": "博彩",
+        "identity_number": "7000101571",
+        "icon_url": "https://images.mixin.one/vlvDXCHSBts32tU3lyt6h6MKIst23BsPz7BZojtwrfLBOJYhCdTYgJVRIg01jJSmULtmYTnngcBCQQbzk7G9=s256",
+        "description": "基于 Mixin Network 交易 ID 的骰子🎲游戏",
+        "url": "https://mixin.one/users/8f492936-2c0f-4667-92c1-e43babafda75",
+        "effects": " github"
+      },
+      {
+        "name": "Slotin",
+        "tags": "博彩",
+        "identity_number": "7000101605",
+        "icon_url": "https://images.mixin.one/pt3xQ6tXIVix7Bs_tVvwY24E34_MbkbDLwJJD1lH8YKjBDNbMU25CAG9pfSxFw5JpqyiGATsEwDQsAOOwNVSAmht=s256",
+        "description": "一个简单好玩的老虎机",
+        "url": "https://mixin.one/users/78a80973-79bd-473e-a39a-c902c2825a87",
+        "effects": ""
+      },
+      {
+        "name": "开心消消乐",
+        "tags": "游戏",
+        "identity_number": "7000101750",
+        "icon_url": "https://images.mixin.one/UlNTkIjCRLfT29PSy-9WGmk-o_eKeZRLAmKZ_nGKzFjE6DohqkpBBnYEziq0mLE4u7nzQEFFLoxJ5lNRHdqjIw=s256",
+        "description": "休闲娱乐、打发时间的最佳选择！",
+        "url": "https://mixin.one/users/725ff204-42f7-4ea7-b667-d2dc8d123421",
+        "effects": ""
+      },
+      {
+        "name": "黄金矿工",
+        "tags": "游戏",
+        "identity_number": "7000101751",
+        "icon_url": "https://images.mixin.one/ZEoEsY6HPtsB61qIoYyPf_q6E_-w0BsgnEAqyDVGGHMRLP-uK73Qe8xpscHtOhu1jfgEEbBNXK-A2VZ-CI78ZQ8=s256",
+        "description": "竖版黄金矿工，制作精美，难度较高",
+        "url": "https://mixin.one/users/0d93ab7c-d97a-4838-9c8d-34627472353e",
+        "effects": ""
+      },
+      {
+        "name": "俄罗斯方块",
+        "tags": "游戏",
+        "identity_number": "7000101754",
+        "icon_url": "https://images.mixin.one/AbuEKHV-HtnQcZuZq1oZ509xbxGB8zbqBFnFHxv-ocWV5HRrXcjhtP025QYsedL2fBJBvh9wYdnmkVM4PegLtM4=s256",
+        "description": "俄罗斯游戏挑战又来了，这次玩家又要挑战多高的分数呢？",
+        "url": "https://mixin.one/users/a97cc584-b73f-471e-9831-dfa2db439aaf",
+        "effects": ""
+      }
+    ]
+  },
+  {
+    "title": "其他",
+    "bots": [
+      {
+        "name": "TokenMall",
+        "tags": "购物 手机充值",
+        "identity_number": "7000101403",
+        "icon_url": "https://images.mixin.one/Ps_e4fK7HYXn1oHF-R2nEX8LilX9vxsmhaRcxgIqHQT0eHBnG7sb_Wj7WN12xaDs7DLmO-HlIyVLK6nkM_3rGdo=s256",
+        "description": "全球首家只接受数字货币支付的在线商城，支持用 BTC、ETH 等充值手机话费",
+        "url": "https://mixin.one/users/7269a51c-fadb-4364-bd4a-be1ef039cb00",
+        "effects": ""
+      }
+    ]
+  }
+]
