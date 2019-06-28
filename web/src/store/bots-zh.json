@@ -39,8 +39,17 @@
         "tags": "大群",
         "identity_number": "7000101317",
         "icon_url": "https://images.mixin.one/yldGRWFcoAk7u-vsTPvlqdNx7MHOWJhQ1bG47ZJvVdEN89oyKa1l6owLgy_HQQWH6IcF8cLbiSzroqOkY_KeAw=s256",
-        "description": "Mixin 团队开发和管理的中文群，大佬云集，入群费 0.02 XIN，每新增 100 群成员入群费上调 0.01 XIN，群成员 1800+",
+        "description": "Mixin 团队开发和管理的中文群，大佬云集，入群费 0.05 XIN，每新增 100 群成员入群费上调 0.01 XIN，群成员 1900+",
         "url": "https://mixin.one/users/67a87828-18f5-46a1-b6cc-c72a97a77c43",
+        "effects": ""
+      },
+      {
+        "name": "李笑来·七三韭菜节【收费群】",
+        "tags": "大群",
+        "identity_number": "7000101982",
+        "icon_url": "https://images.mixin.one/o7KI0FBTIXg8Wpn6y6UL15y3fzCmowuUdXOPoUDitTs1oufZfhYih6caRD0uZcXn7pGls5XApUDJ48q_mFfuNA0=s256",
+        "description": "2019 七三韭菜节：李笑来“录音门”一周年，入群费 2019.73 等值的人民币或数字货币，群成员 5000+",
+        "url": "https://mixin.one/users/39bc8d52-1152-41c2-a3f0-1d469f424885",
         "effects": ""
       },
       {
@@ -66,7 +75,7 @@
         "tags": "大群",
         "identity_number": "7000100217",
         "icon_url": "https://images.mixin.one/LxAVYpOjyi1GiLKOS4VWncoydHoEHYK3A6kNHprJw_JGuAz_ifjE3kjB0nojDVzBn8wxbvn__XFeUdwNUFMak2g=s256",
-        "description": "Exin 中文用户群，额外提供了 Mixin 网页钱包、 GBI 、评级、娱乐等功能入口，群成员 800+",
+        "description": "Exin 中文用户群，额外提供了 Mixin 网页钱包、 GBI 、评级、娱乐等功能入口，群成员 900+",
         "url": "https://mixin.one/users/56e28252-1aef-48a6-a0c7-2213652570d7",
         "effects": ""
       },
@@ -75,7 +84,7 @@
         "tags": "大群",
         "identity_number": "7000101910",
         "icon_url": "https://images.mixin.one/KSb3_xbVKTlapIWoNTtIKVotFV4DpZXdeYI03Hjmr6p_t8UWSBxf-t2ScugoVRIppcazHSggbZS2plwAcOykMeY=s256",
-        "description": "BigONE 官方中文用户群，群成员 700+",
+        "description": "BigONE 官方中文用户群，群成员 1300+",
         "url": "https://mixin.one/users/72f9434b-9ccb-4882-b8bd-16f916ae5f30",
         "effects": ""
       },
@@ -84,8 +93,26 @@
         "tags": "大群",
         "identity_number": "7000101950",
         "icon_url": "https://images.mixin.one/eszzF8dll4mJunQs3z1YDFoQxoGDkJeSuhyr3vRNmRH1FcdSImjJdtdMP0V_a2eAcbRP9FBeIE8wuSWy5zm7u2hm=s256",
-        "description": "MassGrid 中文用户群，致力于成为全球最大的分布式高性能云计算网络，群成员 800+",
+        "description": "MassGrid 中文用户群，致力于成为全球最大的分布式高性能云计算网络，群成员 900+",
         "url": "https://mixin.one/users/eb869f41-abff-4799-9f30-c787748e0ead",
+        "effects": ""
+      },
+      {
+        "name": "大猫城堡开放社区",
+        "tags": "大群",
+        "identity_number": "7000101998",
+        "icon_url": "https://images.mixin.one/JZvujRTCR7dhxYsNnCxQdnuW90Z56qn-dRwS3aHPMIih7E3Ip9nWtT1FIF507gdfSEmGQPWCxnUOhSDqGmYOJw=s256",
+        "description": "大猫城堡是大猫创办的大型社群，本平台为免费版，提供基础交流，让大家认识大猫城堡和 BCAT",
+        "url": "https://mixin.one/users/27674db6-303f-42ff-bb77-c659d0c952ad",
+        "effects": ""
+      },
+      {
+        "name": "Dogecoin 中文群",
+        "tags": "大群",
+        "identity_number": "7000101991",
+        "icon_url": "https://images.mixin.one/E2TNFXBi9a3ZqZ_2Pch4ujL5b7JSaT2oyRdEv2rYZePplHLzB5BSBXyR5L-e9hpbrO8-fCU7hK7xy4-2uAh7g5c=s256",
+        "description": "Dogecoin 中文用户群",
+        "url": "https://mixin.one/users/a241f5bb-d09c-4925-b253-892f6da3a837",
         "effects": ""
       }
     ]
@@ -136,6 +163,15 @@
         "icon_url": "https://images.mixin.one/m-Myhb3sEVh4BSa-QSVfOqlwqf2C7fs_RO77-aUA3aiy8lxd5eVFGAJCrh9gIZ4YixSff91xU-6ZIjAMlYZ418Ap=s256",
         "description": "看妹子的角落",
         "url": "https://mixin.one/users/983cb9e0-4812-4870-a358-aa9f5bb969a9",
+        "effects": ""
+      },
+      {
+        "name": "PRSDigg",
+        "tags": "娱乐",
+        "identity_number": "7000101549",
+        "icon_url": "https://images.mixin.one/L0egX-GZxT0Yh-dd04WKeAqVNRzgzuj_Je_-yKf8aQTZo-xihd-LogbrIEr-WyG9WbJKGFvt2YYx-UIUa1qQMRla=s256",
+        "description": "Digg from PressOne",
+        "url": "https://mixin.one/users/6d8fd25a-1eb1-4afb-b2a6-d34991959b76",
         "effects": ""
       }
     ]
@@ -268,7 +304,7 @@
     ]
   },
   {
-    "title": "其他",
+    "title": "商城",
     "bots": [
       {
         "name": "TokenMall",
@@ -277,6 +313,15 @@
         "icon_url": "https://images.mixin.one/Ps_e4fK7HYXn1oHF-R2nEX8LilX9vxsmhaRcxgIqHQT0eHBnG7sb_Wj7WN12xaDs7DLmO-HlIyVLK6nkM_3rGdo=s256",
         "description": "全球首家只接受数字货币支付的在线商城，支持用 BTC、ETH 等充值手机话费",
         "url": "https://mixin.one/users/7269a51c-fadb-4364-bd4a-be1ef039cb00",
+        "effects": ""
+      },
+      {
+        "name": "Flowin",
+        "tags": "购物 手机充值",
+        "identity_number": "7000101963",
+        "icon_url": "https://images.mixin.one/Xjzqo2FaM8rN4Fsikffz7exDVFoC7XD1C8bg1xa7zwzOyMYfD3PLMsFEiNnjgWlor_aHtlccjnNeM1-SKT9ABjA=s256",
+        "description": "Make the coins flow in Mixin Network. 杂货铺，卖 Mixin ID、车、服务等",
+        "url": "https://mixin.one/users/076ecd36-4c8e-4a12-9aa2-d541bdbba58d",
         "effects": ""
       }
     ]
