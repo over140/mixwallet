@@ -257,6 +257,15 @@
     "title": "娱乐",
     "bots": [
       {
+        "name": "一元夺宝",
+        "tags": "博彩",
+        "identity_number": "7000102020",
+        "icon_url": "https://images.mixin.one/WbcmlmR5O__-w3YvNWZOpkTdMAOC-87Jey3WYv7gckYE8LTj5LY3_fbTlH_83QcVZ8BCI_YrIY7L2dx7Y6ont_4=s256",
+        "description": "幸运人气王，大饼任你抢！支持 EOS、XIN、BTC、ETH、XRP、CNB，点头像可以设置买多份，满员开奖！",
+        "url": "https://mixin.one/users/b1d68201-6abf-4d71-8946-35399279e97f",
+        "effects": ""
+      },
+      {
         "name": "Diceos",
         "tags": "博彩",
         "identity_number": "7000101571",
