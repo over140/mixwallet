@@ -189,6 +189,15 @@
         "effects": ""
       },
       {
+        "name": "收藏小助手",
+        "tags": "工具",
+        "identity_number": "7000101731",
+        "icon_url": "https://images.mixin.one/skYt0xIOkcJhXXoGPWCzeGyhQTBb25HucaiFfy7cOztOBfFm_fQ5NROoZAoKUi_xpovPAqb1tl4rBHRKrLMdqTE=s256",
+        "description": "把需要收藏的消息转发给小助手，方便手机端和桌面端互传文件，放心使用没有服务端（消息单钩），注意不要发敏感信息！",
+        "url": "https://mixin.one/users/b08dd779-7366-4d48-bf16-a2ce5014e213",
+        "effects": ""
+      },
+      {
         "name": "持仓助手",
         "tags": "工具",
         "identity_number": "7000100087",
