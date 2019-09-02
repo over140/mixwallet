@@ -21,12 +21,30 @@
         "effects": " github"
       },
       {
-        "name": "Boxwe 迷你交易所",
+        "name": "Fox · 闪电交易",
+        "tags": "交易",
+        "identity_number": "7000101996",
+        "icon_url": "https://images.mixin.one/aAP6BhiEzKb0t7Wa7eUGt69zXuAavN53KFVesFMn5lm1F6DDNheLRUxxuuEQoUSz9d-yFmoS01HL9G-s6LONA3g=s256",
+        "description": "Fox.ONE 的闪兑服务，界面华丽交互优秀",
+        "url": "https://mixin.one/users/edb0bcf9-4521-43aa-a50d-21a2266a9d41",
+        "effects": " github"
+      },
+      {
+        "name": "Fox · Boxwe 迷你交易所",
         "tags": "交易所",
         "identity_number": "7000102066",
         "icon_url": "https://images.mixin.one/oThmOJsTH2PEhSIaSEacvfuLg6auiljDEEIMtTJk9WWFynfgfGhiJsnJhnaXgdR9u7GlblsRV72ZglnFj-vWOO_i=s256",
         "description": "Boxer 迷你交易所，由 Fox.ONE 交易引擎驱动，原理与 Mixcoin 类似。",
         "url": "https://mixin.one/users/069eafbc-8a45-4fc6-8904-4fb42675f6f1",
+        "effects": ""
+      },
+      {
+        "name": "Fox · OTC",
+        "tags": "交易所",
+        "identity_number": "7000102035",
+        "icon_url": "https://images.mixin.one/IUpgTYOMh_oO3vCODEKjmfyizsOz49bPxY0DLDAi3kgXYHjOJ1eexCjLdFZs8dl5gSzkrnDqa5E2xBD_Hc_IUek=s256",
+        "description": "Fox.ONE 的场外交易平台，承兑人秒哥与 BigONE 的 OTC 秒哥是同一人",
+        "url": "https://mixin.one/users/fb523769-e4f9-4148-b16d-1ca0edcdb955",
         "effects": ""
       },
       {
@@ -53,6 +71,60 @@
         "effects": ""
       },
       {
+        "name": "BOX 定投践行群【收费群】",
+        "tags": "大群",
+        "identity_number": "7000102069",
+        "icon_url": "https://images.mixin.one/y0rAmPBGgNV5NskMtJ8deTmM0omHjQ6TshUi7TXRe6TpSfYin-sw3jQjc3CZxt1aVZQyQ9rbvU6b09I_UNJhV9k=s256",
+        "description": "李笑来老师的定投践行群，讲课很频繁，近几周周一到周五几乎每天都讲课，2019.73 RMB 等值比特币入群费 + 邀请码，群成员 2800+",
+        "url": "https://mixin.one/users/408cace6-84a2-44ae-8fff-37b2333e26ad",
+        "effects": ""
+      },
+      {
+        "name": "李笑来·定投公开课",
+        "tags": "大群",
+        "identity_number": "7000101982",
+        "icon_url": "https://images.mixin.one/LDtQNnjOOvKe-yjYYplRAq1nOw4qq_ATYe-Pm1h_gRcFVUU4GkMXIjei6BHyqrLM3DIH5_pFkrUWUHgiLfD4Ec-y=s256",
+        "description": "听李老师讲课，免费、不需要邀请码，群成员 8100+",
+        "url": "https://mixin.one/users/0642bca1-7ce3-4cf8-b48f-3f97771c8ce3",
+        "effects": ""
+      },
+      {
+        "name": "Exin 中文群",
+        "tags": "大群",
+        "identity_number": "7000000016",
+        "icon_url": "https://images.mixin.one/fCziMu5rXoVMDAA-aafJOHW27hlzuT73ZjXkEfHTz2hAGC4iaOtmg2Yy-tljaOjhitg_1YnhwWA6spJQOReT4eQ=s256",
+        "description": "Exin 用户中文群，除了提供群聊服务，还提供 Mixin 网页钱包、OTC、定投、余币宝、一键跨交易所买币等功能入口，群成员 3700+",
+        "url": "https://mixin.one/users/47cdbc9e-e2b9-4d1f-b13e-42fec1d8853d",
+        "effects": ""
+      },
+      {
+        "name": "Fox.ONE 中文群",
+        "tags": "大群",
+        "identity_number": "7000100217",
+        "icon_url": "https://images.mixin.one/LxAVYpOjyi1GiLKOS4VWncoydHoEHYK3A6kNHprJw_JGuAz_ifjE3kjB0nojDVzBn8wxbvn__XFeUdwNUFMak2g=s256",
+        "description": "Exin 中文用户群，额外提供了 Mixin 网页钱包、 GBI 、评级、娱乐等功能入口，群成员 2700+",
+        "url": "https://mixin.one/users/56e28252-1aef-48a6-a0c7-2213652570d7",
+        "effects": ""
+      },
+      {
+        "name": "BigONE 中文群",
+        "tags": "大群",
+        "identity_number": "7000101910",
+        "icon_url": "https://images.mixin.one/KSb3_xbVKTlapIWoNTtIKVotFV4DpZXdeYI03Hjmr6p_t8UWSBxf-t2ScugoVRIppcazHSggbZS2plwAcOykMeY=s256",
+        "description": "BigONE 官方 Mixin 中文群，群成员 2000+",
+        "url": "https://mixin.one/users/72f9434b-9ccb-4882-b8bd-16f916ae5f30",
+        "effects": ""
+      },
+      {
+        "name": "君说区块链【持仓群】",
+        "tags": "大群",
+        "identity_number": "7000102152",
+        "icon_url": "https://images.mixin.one/OSrIzDKkS4s_wNHZd_G0Y0pUJ9I31wEPMXd3csaGDf3MYE24ulAZGcpdm1VS7SRAuz0Rke-L5S3oZypWVapM2J9R=s256",
+        "description": "BigONE COO 程君的区块链知识小课堂（仅对持仓超过 100 万 ONE 的用户开放），群成员 140+",
+        "url": "https://mixin.one/users/c6c5248c-d8a5-4262-aa25-919e75930e0e",
+        "effects": ""
+      },
+      {
         "name": "PRESS.one 中文群【收费群】",
         "tags": "大群",
         "identity_number": "7000101697",
@@ -62,39 +134,12 @@
         "effects": ""
       },
       {
-        "name": "李笑来·定投公开课",
+        "name": "BitShares 中文群",
         "tags": "大群",
-        "identity_number": "7000101982",
-        "icon_url": "https://images.mixin.one/LDtQNnjOOvKe-yjYYplRAq1nOw4qq_ATYe-Pm1h_gRcFVUU4GkMXIjei6BHyqrLM3DIH5_pFkrUWUHgiLfD4Ec-y=s256",
-        "description": "听李老师讲课，免费、不需要邀请码，群成员 2000+",
-        "url": "https://mixin.one/users/0642bca1-7ce3-4cf8-b48f-3f97771c8ce3",
-        "effects": ""
-      },
-      {
-        "name": "Exin 中文群",
-        "tags": "大群",
-        "identity_number": "7000000016",
-        "icon_url": "https://images.mixin.one/fCziMu5rXoVMDAA-aafJOHW27hlzuT73ZjXkEfHTz2hAGC4iaOtmg2Yy-tljaOjhitg_1YnhwWA6spJQOReT4eQ=s256",
-        "description": "Exin 用户中文群，除了提供群聊服务，还提供 Mixin 网页钱包、OTC、定投、余币宝、一键跨交易所买币等功能入口，群成员 2500+",
-        "url": "https://mixin.one/users/47cdbc9e-e2b9-4d1f-b13e-42fec1d8853d",
-        "effects": ""
-      },
-      {
-        "name": "Fox.ONE 中文群",
-        "tags": "大群",
-        "identity_number": "7000100217",
-        "icon_url": "https://images.mixin.one/LxAVYpOjyi1GiLKOS4VWncoydHoEHYK3A6kNHprJw_JGuAz_ifjE3kjB0nojDVzBn8wxbvn__XFeUdwNUFMak2g=s256",
-        "description": "Exin 中文用户群，额外提供了 Mixin 网页钱包、 GBI 、评级、娱乐等功能入口，群成员 1900+",
-        "url": "https://mixin.one/users/56e28252-1aef-48a6-a0c7-2213652570d7",
-        "effects": ""
-      },
-      {
-        "name": "BigONE 中文群",
-        "tags": "大群",
-        "identity_number": "7000101910",
-        "icon_url": "https://images.mixin.one/KSb3_xbVKTlapIWoNTtIKVotFV4DpZXdeYI03Hjmr6p_t8UWSBxf-t2ScugoVRIppcazHSggbZS2plwAcOykMeY=s256",
-        "description": "BigONE 官方中文用户群，群成员 1800+",
-        "url": "https://mixin.one/users/72f9434b-9ccb-4882-b8bd-16f916ae5f30",
+        "identity_number": "7000102098",
+        "icon_url": "https://images.mixin.one/5T7S-EKpOo6Tc5pnAUbCOHn3YQsqGQvafjcrYdPk6_uMJV--o79EpFLRaDh9vMaUHzXOcMbUqRlCPcUCvz-C9W4=s256",
+        "description": "BitShares 是基于石墨烯 2.0 技术的链上金融平台",
+        "url": "https://mixin.one/users/316d8d74-bb4a-40a1-b49d-e8527ad5fc65",
         "effects": ""
       },
       {
@@ -111,17 +156,8 @@
         "tags": "大群",
         "identity_number": "7000101998",
         "icon_url": "https://images.mixin.one/JZvujRTCR7dhxYsNnCxQdnuW90Z56qn-dRwS3aHPMIih7E3Ip9nWtT1FIF507gdfSEmGQPWCxnUOhSDqGmYOJw=s256",
-        "description": "大猫城堡是大猫创办的大型社群，本平台为免费版，提供基础交流，让大家认识大猫城堡和 BCAT，群成员 600+",
+        "description": "大猫城堡是大猫创办的大型社群，本平台为免费版，提供基础交流，让大家认识大猫城堡和 BCAT，群成员 800+",
         "url": "https://mixin.one/users/27674db6-303f-42ff-bb77-c659d0c952ad",
-        "effects": ""
-      },
-      {
-        "name": "BitShares 中文群",
-        "tags": "大群",
-        "identity_number": "7000102098",
-        "icon_url": "https://images.mixin.one/5T7S-EKpOo6Tc5pnAUbCOHn3YQsqGQvafjcrYdPk6_uMJV--o79EpFLRaDh9vMaUHzXOcMbUqRlCPcUCvz-C9W4=s256",
-        "description": "BitShares 是基于石墨烯 2.0 技术的链上金融平台",
-        "url": "https://mixin.one/users/316d8d74-bb4a-40a1-b49d-e8527ad5fc65",
         "effects": ""
       },
       {
@@ -129,7 +165,7 @@
         "tags": "大群",
         "identity_number": "7000101991",
         "icon_url": "https://images.mixin.one/E2TNFXBi9a3ZqZ_2Pch4ujL5b7JSaT2oyRdEv2rYZePplHLzB5BSBXyR5L-e9hpbrO8-fCU7hK7xy4-2uAh7g5c=s256",
-        "description": "Dogecoin 中文用户群",
+        "description": "Dogecoin 中文用户群，群成员 300+",
         "url": "https://mixin.one/users/a241f5bb-d09c-4925-b253-892f6da3a837",
         "effects": ""
       }
