@@ -116,6 +116,15 @@
         "effects": ""
       },
       {
+        "name": "Maxin 美信中文群",
+        "tags": "大群",
+        "identity_number": "7000102346",
+        "icon_url": "https://images.mixin.one/8ytZYxkGaZxKoFNQa2BB8Dfch4MBAtFDo0SlnSB2npdYFETVWIfTf5mQfsn38KFPWU6kYWO34kTNqz6PztkmlUU=s256",
+        "description": "来美信，质押 BTC、XIN 换取 USDT",
+        "url": "https://mixin.one/users/8181faba-9d46-4618-b30c-38f0d0dd028a",
+        "effects": ""
+      },
+      {
         "name": "君说区块链【持仓群】",
         "tags": "大群",
         "identity_number": "7000102152",
@@ -208,6 +217,24 @@
         "icon_url": "https://images.mixin.one/2ehkzRwsLNFn8s0102U703aehwcPm9_iUmnpkfqzZPICd5Yo3iFpopCheXNOXl13TKsef8v7XV72jGfww663kX8=s256",
         "description": "币世界非官方 Bot，实时推送",
         "url": "https://mixin.one/users/1fc37f38-28e2-442c-9187-79eaee9aaa3b",
+        "effects": ""
+      },
+      {
+        "name": "Readhub 要闻",
+        "tags": "资讯",
+        "identity_number": "7000101501",
+        "icon_url": "https://images.mixin.one/N7D4pLReFjZhzPNZg_tnujXVMK08WTO4VsP8o76rKMJGKwiXH9uXJOPhUvOu7hLfdKU2hiIa2kXgza8pH88FQiA=s256",
+        "description": "Readhub 非官方机器人，主要推送热门话题和区块链快讯",
+        "url": "https://mixin.one/users/69fa380d-24cd-4e92-b981-c2168320f818",
+        "effects": ""
+      },
+      {
+        "name": "ChainONE 区块链技术指北",
+        "tags": "资讯",
+        "identity_number": "7000101952",
+        "icon_url": "https://images.mixin.one/P1whpteJPXuLkWphVHZ54Cr4wwriTzY6xwWexithr5_z7uICp7MMvf5PUukFzi2ozBnIqPysa68f59jXmeBAxlcM=s256",
+        "description": "区块链技术动态、行业资讯等汇总分享",
+        "url": "https://mixin.one/users/2440ab6d-0c27-4eaa-a3cb-e09ffa22bc19",
         "effects": ""
       },
       {
@@ -394,7 +421,7 @@
     ]
   },
   {
-    "title": "商城",
+    "title": "其他",
     "bots": [
       {
         "name": "Flowin",
@@ -403,6 +430,15 @@
         "icon_url": "https://images.mixin.one/Xjzqo2FaM8rN4Fsikffz7exDVFoC7XD1C8bg1xa7zwzOyMYfD3PLMsFEiNnjgWlor_aHtlccjnNeM1-SKT9ABjA=s256",
         "description": "Make the coins flow in Mixin Network. 杂货铺，卖 Mixin ID、车、服务等",
         "url": "https://mixin.one/users/076ecd36-4c8e-4a12-9aa2-d541bdbba58d",
+        "effects": ""
+      },
+      {
+        "name": "空投频道",
+        "tags": "",
+        "identity_number": "7000102275",
+        "icon_url": "https://images.mixin.one/jmS95VZ4XzOpoTDncDTwmQiViG9pHx2x5OVbT8CEOA46s2IbEnBJAuey9ySGr5aUSsrsQuUYZLahyT6EeK2mXw=s256",
+        "description": "领取各类价值币，了解各类价值消息，就在空投频道",
+        "url": "https://mixin.one/users/608ab780-41f4-435a-824e-b068c9c60124",
         "effects": ""
       },
       {
