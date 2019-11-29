@@ -4,11 +4,20 @@
     "bots": [
       {
         "name": "幸运 BTC 机器人 #全民签到领 BTC#",
-        "tags": "购物 手机充值",
+        "tags": "",
         "identity_number": "7000101487",
         "icon_url": "https://images.mixin.one/KKXs79wUTL9IM_iahoV42X1B6v7mqaGmqH3u-VvPhGQpT5bV6EI5VcEjqivSb8_FMN70QjIjAqsUa_0BGF4E3K4=s256",
         "description": "没有套路的 BTC 奖励机器人，签到、邀请、评论都有奖哦！",
         "url": "https://mixin.one/users/71ae9403-9d20-4772-b47a-729e0cc3648b",
+        "effects": ""
+      },
+      {
+        "name": "每日签到提醒 #全民签到领 BTC#",
+        "tags": "",
+        "identity_number": "7000100141",
+        "icon_url": "https://images.mixin.one/mtWfWe9jzUWaNIqjLgyDWx7d4x6aVuW2GhK5ZfPux5qHYBEgGAIXCuFe0zVNyNIEw4ouII9Rtd0VIh4wbQuh3xMB=s256",
+        "description": "签到领比特币提醒助手，再也不担心忘记签到啦！记得开 Mixin 推送通知权限效果更佳！",
+        "url": "https://mixin.one/users/8df76799-0df7-4600-ad52-c6ebdb01727a",
         "effects": ""
       },
       {
@@ -72,6 +81,15 @@
         "icon_url": "https://images.mixin.one/Xjzqo2FaM8rN4Fsikffz7exDVFoC7XD1C8bg1xa7zwzOyMYfD3PLMsFEiNnjgWlor_aHtlccjnNeM1-SKT9ABjA=s256",
         "description": "Mixin 跳蚤市场、杂货铺，卖各种产品和服务，李安‘导演’亲情奉献！",
         "url": "https://mixin.one/users/076ecd36-4c8e-4a12-9aa2-d541bdbba58d",
+        "effects": ""
+      },
+      {
+        "name": "热门电影",
+        "tags": "",
+        "identity_number": "7000100178",
+        "icon_url": "https://images.mixin.one/rTQQR9J_xdDYjpECPSM1_IrfJqUHu7aAegn4sZIduHN-KwZpG5ncBgunjukHO6FBkSm4TeKmf2DIs2TTTThKmw=s256",
+        "description": "给机器人发电影名称机器人帮你找资源，可以一边聊天一边看电影！",
+        "url": "https://mixin.one/users/2cb83f7a-71cc-4316-b411-0a92d0fb569e",
         "effects": ""
       }
     ]
@@ -175,6 +193,15 @@
         "effects": ""
       },
       {
+        "name": "W3c.Group 官方群",
+        "tags": "大群",
+        "identity_number": "7000102563",
+        "icon_url": "https://images.mixin.one/ppyOLB1aF0f7YdGQeF5Gizj4eSquTIWzILdACh4al21kn0iTrX32UL_sd2sZb2dYx-D5HgSFawNaMJZwoiaUbw=s256",
+        "description": "W3c.Group（Web3.0 Content Group）区块链创作者社区的官方中文群",
+        "url": "https://mixin.one/users/18bc32dc-9e63-475c-954f-2cdc0e288d7a",
+        "effects": ""
+      },
+      {
         "name": "Maxin 美信中文群",
         "tags": "大群",
         "identity_number": "7000102346",
@@ -252,6 +279,15 @@
         "effects": ""
       },
       {
+        "name": "ExinNews",
+        "tags": "资讯",
+        "identity_number": "7000102325",
+        "icon_url": "https://images.mixin.one/3jdc2LyPfwrntZOa1psoBCf8XhYqhxDoE9tV5EnUiirKkiD4XIRO7MkwEsE2PkxbWXmzVg1v2OaJwgV0BigYkC4=s256",
+        "description": "Exin 团队官方频道，获取 ExinOne、ExinEarn、ExinPool 最新动态",
+        "url": "https://mixin.one/users/a074bd5b-626f-4d4b-9ded-20b6b3f7bc8f",
+        "effects": ""
+      },
+      {
         "name": "小道消息",
         "tags": "资讯",
         "identity_number": "7000102201",
@@ -326,6 +362,24 @@
         "icon_url": "https://images.mixin.one/5ZH3sTtY1XkPPZJvNP7c-FzS98hgLPMGu_xpooaNniWgISXePYrOXV8Unc-x3BIb7g_Hg_T9rHnO6eVZyWqN89qB=s256",
         "description": "Fox.ONE 旗下的定投工具，适合长期看好数字资产的投资者，支持个性化设置，自动扣款，实时查看收益",
         "url": "https://mixin.one/users/3ec8c231-f5a2-4081-af15-e2eac80db745",
+        "effects": ""
+      },
+      {
+        "name": "W3C 区块链创作者社区",
+        "tags": "工具",
+        "identity_number": "7000102203",
+        "icon_url": "https://images.mixin.one/SAQREf4M4WvFopEHocWB-AH0r5zH9f09YgnKXQH6QMw2WDwePL4lOUuJnF4SoSjvh005St2whsCCymAURn9xgO0Q=s256",
+        "description": "让创作者熟悉区块链并真正获益，同时更好地进行社群协作。",
+        "url": "https://mixin.one/users/4ef084f8-709c-490d-9a10-03f466496c5e",
+        "effects": ""
+      },
+      {
+        "name": "我信（小密圈）",
+        "tags": "工具",
+        "identity_number": "7000101526",
+        "icon_url": "https://images.mixin.one/ctBsMPE_oxpRxyUfeuQkdkHp3-REKdFLPNsm7UtbiqL5SDgcWUghDPknCPcu2P6F27Oeo1IGVSl4dw67tyqkRqM=s256",
+        "description": "通过这个机器人可以开通自己的免费或付费小密圈，还有热门小密圈哦！",
+        "url": "https://mixin.one/users/9ccadd37-fdf4-4334-9bc4-99f699ab3a4e",
         "effects": ""
       },
       {
