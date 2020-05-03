@@ -5,8 +5,8 @@ import Account from './account.js';
 import Asset from './asset.js';
 import forge from 'node-forge';
 import moment from 'moment';
-import KJUR from 'jsrsasign';
-import uuid from 'uuid/v4';
+import jwt from 'jsonwebtoken';
+import { v4 as uuidv4 } from 'uuid';
 
 function API(router) {
   this.router = router;
@@ -20,29 +20,24 @@ function API(router) {
 API.prototype = {
 
   signAuthenticationToken: function (uid, sid, privateKey, method, uri, params) {
-    var body;
-    if (typeof(params) === "object") {
-      body = JSON.stringify(params);
-    } else if (params == undefined || params === null) {
-      body = ""
-    } else {
-      body = params;
+    if (typeof (params) === "object") {
+      params = JSON.stringify(params);
+    } else if (typeof (params) !== "string") {
+      params = ""
     }
-    
-    let expire = moment.utc().add(1, 'minutes').unix();
+
+    let expire = moment.utc().add(30, 'minutes').unix();
     let md = forge.md.sha256.create();
-    md.update(method + uri + body);
-    var oHeader = {alg: 'RS512', typ: 'JWT'};
-    var oPayload = {
+    md.update(forge.util.encodeUtf8(method + uri + params));
+    let payload = {
       uid: uid,
       sid: sid,
+      iat: moment.utc().unix(),
       exp: expire,
-      jti: uuid(),
+      jti: uuidv4(),
       sig: md.digest().toHex()
     };
-    var sHeader = JSON.stringify(oHeader);
-    var sPayload = JSON.stringify(oPayload);
-    return KJUR.jws.JWS.sign('RS512', sHeader, sPayload, privateKey);
+    return jwt.sign(payload, privateKey, { algorithm: 'RS512' });
   },
 
   request: function (method, path, params, callback) {

@@ -333,6 +333,15 @@
         "effects": ""
       },
       {
+        "name": "Mixin 直播频道" ,
+        "tags": "资讯",
+        "identity_number": "7000101394",
+        "icon_url": "https://mixin-images.zeromesh.net/uzkc3RxlYl4OPOP3DdTfmmvXfpDxsniwxVD38-iFSOTogQAbl9P7j86ceetgM-7inQi5oQjwYmtC3jwL2f5u6Sg=s256",
+        "description": "发布 Mixin 相关的直播信息，另有不定时红包雨",
+        "url": "https://mixin.one/users/44a771f1-8f7c-40e3-9742-c1ff57b8cd0c",
+        "effects": ""
+      },
+      {
         "name": "币世界 Bot",
         "tags": "资讯",
         "identity_number": "7000100102",
@@ -464,6 +473,15 @@
         "effects": ""
       },
       {
+        "name": "Mixin 文章小助手",
+        "tags": "工具",
+        "identity_number": "7000103014",
+        "icon_url": "https://mixin-images.zeromesh.net/BEwcXZmMzvAZn6KiOFK4UFS_a0KSUBbrl_vmFwnE-_kiY4UGmTM6npc-fTnu7XyCQXHYo7427tX3mo2tYeLAEwL_=s256",
+        "description": "发送 Markdown 格式的文字给小助手能获得文章卡片消息，发送图片生成图片链接可插入到文章里。",
+        "url": "https://mixin.one/users/c26ec48e-d626-4106-9f30-ff6a69783369",
+        "effects": ""
+      },
+      {
         "name": "Mixin 监控",
         "tags": "工具",
         "identity_number": "7000101498",
@@ -504,15 +522,6 @@
   {
     "title": "娱乐",
     "bots": [
-      {
-        "name": "FomoDice",
-        "tags": "博彩",
-        "identity_number": "7000102398",
-        "icon_url": "https://images.mixin.one/WnhQHxXjCNaXoRYQZDvIkO3dP0zjA0iu9yjImzFdKCEhzV3KYh4mEqIOY8IzbN5jARx3gWiRYZT_8Wy82j9proc=s256",
-        "description": "公平、好玩、专业、共享的区块链博弈平台！上庄牛牛、骰宝、龙虎斗等你来玩！更有德州扑克、红黑大战、百家乐、封神榜即将上线！",
-        "url": "https://mixin.one/users/16987287-4a18-4a75-88fc-b5d1868e85f3",
-        "effects": ""
-      },
       {
         "name": "Diceos",
         "tags": "博彩",

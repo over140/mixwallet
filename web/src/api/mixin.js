@@ -31,7 +31,7 @@ Mixin.prototype = {
   importWallet: function(callback, data) {
     const self = this;
     const path = '/pin/verify';
-    const url = 'https://api.mixin.one' + path;
+    const url = 'https://mixin-api.zeromesh.net' + path;
     const method = 'POST';
     const userId = data.uid;
     const sessionId = data.sid;
