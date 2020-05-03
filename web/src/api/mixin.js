@@ -67,13 +67,10 @@ Mixin.prototype = {
       asset_id : asset.asset_id,
       pin : self.encryptedPin(form.pin)
     };
-    if (asset.public_key) {
-      params['label'] = asset.symbol;
-      params['public_key'] = form.public_key;
-    } else if (asset.account_tag && asset.account_name) {
-      params['account_tag'] = form.account_tag;
-      params['account_name'] = form.account_name;
-    }
+
+    params['label'] = asset.symbol;
+    params['destination'] = form.destination;
+    params['tag'] = form.tag;
 
     this.api.request('POST', '/addresses', params, function(resp) {
       if (resp.error) {

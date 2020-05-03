@@ -21,18 +21,15 @@
   }
 }
 
-.account.withdrawal.container,
-.address.withdrawal.container {
+.withdrawal.container {
   display: none;
 
 }
 
-.account.deposit.container,
-.address.deposit.container {
+.deposit.container {
   display: none;
 
-  input.account,
-  input.address {
+  input {
     margin: 0 0 32px;
     font-size: 14px;
     font-family: $font-main-mono;
@@ -43,10 +40,6 @@
     border-radius: 0 0 2px 2px;
     padding: 8px 16px;
     box-sizing: border-box;
-  }
-
-  input.account {
-    margin-bottom: 16px;
   }
 
   .label {
@@ -66,8 +59,8 @@
     }
   }
 
-  .label.account.name {
-    margin-top: 32px;
+  .label.tag {
+    margin-top: 64px;
   }
 
   .code.container {
@@ -87,6 +80,10 @@
 
 .deposit.notice {
   margin: 32px 0;
+
+  .attention {
+    color: red;
+  }
 }
 
 .accounts.list {

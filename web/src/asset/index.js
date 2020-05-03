@@ -80,6 +80,22 @@ Asset.prototype = {
       }
       resp.data.me = me;
       resp.data.trace_id = uuid().toLowerCase();
+
+      const chainId = resp.data.chain_id
+      const confirmations = i18n.t('deposit.confirmations', { confirmations: resp.data.confirmations })
+      if (chainId === 'c6d0c728-2624-429b-8e0d-d9d19b6592fa') {
+        resp.data.tips = i18n.t('deposit.support_btc') + confirmations
+      } else if (chainId === '6cfe566e-4aad-470b-8c9a-2fd35b49c68d') {
+        resp.data.tips = i18n.t('deposit.support_eos') + confirmations
+      } else if (chainId === '43d61dcd-e413-450d-80b8-101d5e903357') {
+        resp.data.tips = i18n.t('deposit.support_eth') + confirmations
+      } else if (chainId === '25dabac5-056a-48ff-b9f9-f67395dc407c') {
+        resp.data.tips = i18n.t('deposit.support_trx') + confirmations
+      } else {
+        resp.data.tips = i18n.t('deposit.support_other', { symbol: resp.data.symbol }) + confirmations
+      }
+      resp.data.memoLabel = chainId === '23dfb5a5-5d7b-48b6-905f-3970e3176e27' ? i18n.t('deposit.tag') : i18n.t('deposit.memo')
+      
       $('body').attr('class', 'account layout');
       $('#layout-container').html(self.templateAsset(resp.data));
       self.router.updatePageLinks();
@@ -92,23 +108,17 @@ Asset.prototype = {
         return self.handleWithdrawal(me, resp.data);
       }
 
-      if (resp.data.public_key !== '') {
-        $('.address.deposit.container').show();
+      $('.deposit.container').show();
+      new QRious({
+        element: $('.deposit.destination.code.container canvas')[0],
+        value: resp.data.destination,
+        size: 500
+      });
+
+      if (resp.data.tag !== '') {
         new QRious({
-          element: $('.deposit.address.code.container canvas')[0],
-          value: resp.data.public_key,
-          size: 500
-        });
-      } else if (resp.data.account_name !== '') {
-        $('.account.deposit.container').show();
-        new QRious({
-          element: $('.deposit.account.name.code.container canvas')[0],
-          value: resp.data.account_name,
-          size: 500
-        });
-        new QRious({
-          element: $('.deposit.account.tag.code.container canvas')[0],
-          value: resp.data.account_tag,
+          element: $('.deposit.tag.code.container canvas')[0],
+          value: resp.data.tag,
           size: 500
         });
       }
@@ -117,12 +127,6 @@ Asset.prototype = {
 
   handleWithdrawal: function (me, asset) {
     const self = this;
-
-    if (asset.public_key !== '') {
-      $('.address.withdrawal.container').show();
-    } else if (asset.account_name !== '') {
-      $('.account.withdrawal.container').show();
-    }
 
     $('.withdrawal.form').submit(function (event) {
       event.preventDefault();

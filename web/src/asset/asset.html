@@ -17,25 +17,22 @@
       </div>
 
       <div class="deposit action container">
-        <div class="account deposit container">
-          <div class="label"><label>{{t 'deposit.account.tag'}}</label></div>
-          <input class="account tag" type="text" value="{{account_tag}}" readonly />
-          <div class="deposit account tag code container"><canvas></canvas></div>
-          <div class="label account name"><label>{{t 'deposit.account.name'}}</label></div>
-          <input class="account name" type="text" value="{{account_name}}" readonly />
-          <div class="deposit account name code container"><canvas></canvas></div>
-        </div>
-        <div class="address deposit container">
-          <div class="label"><label>{{t 'deposit.address'}}</label></div>
-          <input class="address" type="text" value="{{public_key}}" readonly />
-          <div class="deposit address code container"><canvas></canvas></div>
-        </div>
         <div class="deposit notice">
-          {{#if public_key}}
-            {{t 'deposit.confirmations' confirmations=confirmations}}
+          {{tips}}
+          <br /><br />
+          {{#if tag}}
+            <div class="attention">{{t 'deposit.both' symbol=symbol}}</div>
           {{/if}}
-          {{#if account_name}}
-          {{t 'deposit.both' symbol=symbol}}{{t 'deposit.confirmations' confirmations=confirmations}}
+        </div>
+
+        <div class="deposit container">
+          <div class="label"><label>{{t 'deposit.destination'}}</label></div>
+          <input class="destination" type="text" value="{{destination}}" readonly />
+          <div class="deposit destination code container"><canvas></canvas></div>
+          {{#if tag}}
+          <div class="label tag"><label>{{memoLabel}}</label></div>
+          <input class="tag" type="text" value="{{tag}}" readonly />
+          <div class="deposit tag code container"><canvas></canvas></div>
           {{/if}}
         </div>
       </div>
@@ -43,18 +40,12 @@
       <div class="withdrawal action container">
         <div class="mixin connected">
           <form action="javascript:void(0);" class="withdrawal form">
-            <div class="account withdrawal container">
-                <div>{{t 'withdrawal.account.name' symbol=symbol}}</div>
-                <input class="mixin withdrawal account name" type="text" name="account_name" autocomplete="off"/>
-                <div>{{t 'withdrawal.account.tag' symbol=symbol}}</div>
-                <input class="mixin withdrawal account tag" type="text" name="account_tag" autocomplete="off"/>
-            </div>
-            <div class="address withdrawal container">
-                <div>{{t 'withdrawal.public.key' symbol=symbol}}</div>
-                <input class="mixin withdrawal pubkey" type="text" name="public_key" autocomplete="off"/>
-                <div>{{t 'withdrawal.memo' symbol=symbol}}</div>
-                <input class="mixin withdrawal memo" type="text" name="memo" autocomplete="off"/>
-            </div>
+            <div>{{t 'withdrawal.destination' symbol=symbol}}</div>
+            <input class="mixin withdrawal destination" type="text" name="destination" autocomplete="off"/>
+            {{#if tag}}
+            <div>{{memoLabel}}</div>
+            <input class="mixin withdrawal tag" type="text" name="tag" autocomplete="off"/>
+            {{/if}}
             <div>{{t 'withdrawal.amount' symbol=symbol}}</div>
             <input class="mixin withdrawal amount" type="text" name="amount" autocomplete="off"/>
             <div>{{t 'withdrawal.pin'}}</div>
