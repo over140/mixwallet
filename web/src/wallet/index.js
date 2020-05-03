@@ -36,8 +36,27 @@ Wallet.prototype = {
       }, privateKey, publicKey, pin);
     });
 
+    $('.file.import').on('change', function () {
+      const files = $(this).prop('files');
+      if (files.length !== 1) {
+        return;
+      }
+      var fileReader = new FileReader();
+      fileReader.onload = function () {
+        const keystore = JSON.parse(fileReader.result);
+        if (keystore) {
+          window.localStorage.setItem('uid', keystore.client_id);
+          window.localStorage.setItem('sid', keystore.session_id);
+          window.localStorage.setItem('pintoken', keystore.pin_token);
+          window.localStorage.setItem('prvkey', keystore.session_key);
+          window.location.href = '/account';
+        }
+      };
+      fileReader.readAsText(files[0], 'utf-8');
+    });
+
     $('.action.import').on('click', function () {
-      window.location.href = '/account/import';
+      $('.file.import').click()
     });
 
   },

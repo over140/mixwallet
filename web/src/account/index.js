@@ -56,26 +56,14 @@ Account.prototype = {
 
   exportWallet: function () {
     const self = this;
-    const base64 = Buffer.from(JSON.stringify({
-      key: self.api.account.privateKey(),
-      uid: self.api.account.userId(),
-      pintoken: self.api.account.pinToken(),
-      sid: self.api.account.sessionId()
-    })).toString('base64');
-
+    const keystore = JSON.stringify(self.api.account.keystore(), null, 2)
     $('body').attr('class', 'account layout');
     $('#layout-container').html(self.templateExport({
-      privateKey: base64,
+      privateKey: keystore,
     }));
 
-    var clipboard = new Clipboard('.copy', {
-      text: function() {
-        return base64;
-      }
-    });
-    clipboard.on('success', function(e) {
-      self.api.notify('success', i18n.t('wallet.export.success'));
-    });
+    $('.download').attr("href", "data:text/json; charset=utf-8," + encodeURIComponent(keystore));
+    $('.download').attr("download", "keystore.json");
   },
 
 };

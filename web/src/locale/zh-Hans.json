@@ -65,8 +65,9 @@
       "pin": "输入 6 位数字 PIN 码"
     },
     "export": {
-      "title": "导出私钥",
+      "title": "Keystore",
       "copy": "复制",
+      "download": "下载",
       "success": "复制成功"
     },
     "tips": "Mixin Wallet 是一个基于 Mixin Network 的全币种钱包，通过私钥 + 6 位数字 PIN 码安全管理你的数字资产。注意我们不会保存你的私钥和数字 PIN 码，私钥和 PIN 码丢失无法找回，请妥善保管私钥并记住 6 位数字 PIN 码。"

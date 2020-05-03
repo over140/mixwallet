@@ -34,6 +34,17 @@ Account.prototype = {
     return false;
   },
 
+  keystore: function() {
+    const json = {
+      version: "1.0.0",
+      client_id: window.localStorage.getItem('uid'),
+      session_id: window.localStorage.getItem('sid'),
+      pin_token: window.localStorage.getItem('pintoken'),
+      session_key: window.localStorage.getItem('prvkey')
+    }
+    return json
+  },
+
   clear: function (callback) {
     window.localStorage.clear();
     if (typeof callback === 'function') {

@@ -52,6 +52,10 @@
       font-family: $font-main-title;
     }
 
+    .file.import {
+      display: none;
+    }
+
     .title {
       font-family: $font-main-title;
       font-size: 20px;
