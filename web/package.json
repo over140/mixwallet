@@ -17,7 +17,7 @@
     "int64-buffer": "^0.99.1007",
     "jquery": "^3.5.0",
     "jsonwebtoken": "^8.5.1",
-    "jsrsasign": "^8.0.15",
+    "jsrsasign": "^10.2.0",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
     "navigo": "^7.1.2",
